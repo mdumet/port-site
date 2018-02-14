@@ -10,7 +10,28 @@ $(document).ready(function(){
   		}
 	});
 
+
+// Tooltip shows up on hover
+	$('[data-toggle="tooltip"]').tooltip(); 
+
+
+// show and hide card title on hover
+	$('.card-test').mouseover(function() {
+	  $('.card-title-test').css("visibility","visible");
+	});
+
+	$('.card-test').mouseout(function() {
+	  $('.card-title-test').css("visibility","hidden");
+	});
+
+
+
 });
+
+
+
+
+
 
 
 // To make images retina, add a class "2x" to the img element
