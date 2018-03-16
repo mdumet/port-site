@@ -1,6 +1,15 @@
 
 
 
+
+
+
+
+/* === Global Styles === */
+
+/* === Global Styles - X-Small Screen === */
+
+/*Navbar*/
 .navbar {
 	height: 50px;
 	background-color: #efc337; 
@@ -69,33 +78,8 @@ img.logo {
 	background-color: transparent;
 }
 
-.jumbotron.main {
-	background-color: #efc337;
-	padding-bottom: 0;
-}
 
-.jumbotron.main h1 {
-	color: #f4f4f4;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	text-align: center;
-}
-
-.jumbotron.main h2 {
-	color: #313335;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	text-align: center;
-}
-
-.jumbotron.main p {
-	color: #313335;
-	margin-bottom: 35px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	text-align: center;
-	margin-top: 30px;
-}
+/*H2 - Title*/
 
 h2.title {
 	padding-left: 15px;
@@ -103,181 +87,9 @@ h2.title {
 	font-weight: 700;
 }
 
-.col-sm-6, .col-md-4, .col-md-12 {
-	margin-bottom: 30px;
-}
-
-.card {
-	height:320px;
-	padding-left: 0;
-	padding-right: 0;
-	box-shadow:0px 3px 7.5px #cacaca;
-	-webkit-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
-	-ms-transition:all 0.2s ease;
-	-o-transition:all 0.2s ease;
-	transition:all 0.2s ease;
-}
-
-.card:hover{
-	box-shadow:0px 3px 7.5px #858585;
-}
-
-.card a {
-	width: 100%;
-	height: 320px;
-}
-
-.card img.card-img {
-	display:block;
-	width:100%;
-	height:180px;
-}
-
-.card:hover img.card-img {
-	opacity:.85;
-}
- 
-
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-
-.card-test {
-	/*width: 360px;*/
-	height: 240px;
-	padding-left: 0;
-	padding-right: 0;
-	box-shadow:0px 3px 7.5px #cacaca;
-	-webkit-transition:all 0.2s ease;
-	-moz-transition:all 0.2s ease;
-	-ms-transition:all 0.2s ease;
-	-o-transition:all 0.2s ease;
-	transition:all 0.2s ease;
-}
-
-.card-test:hover{
-	box-shadow:0px 3px 7.5px #858585;
-}
-
-.card-test img.card-img.img-test {
-	display:block;
-	width:100%;
-	height:240px;
-	opacity:1;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-
-.card-test:hover img.card-img.img-test {
-	opacity:.2;
-}
 
 
-.card-test a {
-	text-decoration: none;
-}
-
-.card-test a p {
-	visibility:hidden;
-}
-
-.card-test a p.card-title-test {
-	text-align: center;
-	margin-top: -140px;
-	text-decoration: none;
-	color:#707070;
-	font-size:20px;
-}
-
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-/*===========================================================================================================*/
-
-
-
-
-/*=============================*/
-
-.card .card-content {
-	position:relative;
-	float:left;
-	width: 100%;
-	padding-left:20px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.card .card-content h2{
-	margin-top: 0;
-	color:#707070;
-	font-size:24px;
-}
-
-.card .card-content .card-scope{
-	position: relative;
-	float: left;
-	width: 100%;
-	margin-top:5px;
-	color:#313335;
-	font-size:14px;
-	clear:left;
-}
-
-.card .card-content .card-btn{
-	position: relative;
-	float: left;
-	margin-top:10px;
-	padding:7px 10px;
-	border:1px solid #707070;
-	border-radius: 4px;
-	color:#313335;
-	font-size:14px;
-	clear:left;
-}
-
-.card-btn:hover {
-	border:1px solid #707070;
-}
-
-.jumbotron.cta {
-	background-color: #efc337;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 30px;
-	padding-bottom: 10px;
-}
-
-.jumbotron.cta p {
-	color: #313335;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	text-align: center;
-}
-
-.btn-primary {
-	color: #efc337;
-	background-color: #313335;
-	border: none;
-}
-
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-	color: #efc337;
-	background-color: #5a5b5d;
-	border: none;
-    outline: none;
-}
-
-.btn-lg {
-	padding: 8px 20px;
-    font-size: 18px;
-    border-radius: 4px;
-}
-
-/*===========================*/
+/*Footer*/
 
 footer{
 	position:relative;
@@ -353,56 +165,12 @@ footer .copyright{
 }
 
 
-/*  === Footer - Small Screen & Up ===  */
 
-@media screen and (min-width: 768px){
-	footer{height:auto}
-
-	footer .footer-links{
-		width:50%;
-		margin:30px 25% 25px;
-	}
-
-	footer ul{
-		width:100%;
-		margin:0;
-		padding:0 20px;
-	}
-
-	footer ul li{
-		width:25%;
-		margin-left:0;
-		padding:0;
-		line-height:30px;
-		display:inline-block;
-	}
-
-	footer ul li a{
-		position:relative;
-		left:50%;
-		margin-left:-23px;
-	}
-
-	footer .copyright{
-		text-align:center;
-		width:100%;
-		height:60px;
-		margin:0 auto;
-		padding:0;
-	}
-
-	footer .copyright p{
-		line-height:40px;
-		font-size:16px !important;
-		margin:0;
-	}
-}
-
-
-/*  === Small Screen & Up ===  */
-
+/* === Global Styles - Small Screen === */
 
 @media (min-width: 768px) {
+
+	/*Navbar*/
 
 	.navbar {
 		height: 50px;
@@ -495,7 +263,53 @@ footer .copyright{
 		background-color: #313335;
 	}
 
+
+	/*Footer*/
+
+	footer{height:auto}
+
+	footer .footer-links{
+		width:50%;
+		margin:30px 25% 25px;
+	}
+
+	footer ul{
+		width:100%;
+		margin:0;
+		padding:0 20px;
+	}
+
+	footer ul li{
+		width:25%;
+		margin-left:0;
+		padding:0;
+		line-height:30px;
+		display:inline-block;
+	}
+
+	footer ul li a{
+		position:relative;
+		left:50%;
+		margin-left:-23px;
+	}
+
+	footer .copyright{
+		text-align:center;
+		width:100%;
+		height:60px;
+		margin:0 auto;
+		padding:0;
+	}
+
+	footer .copyright p{
+		line-height:40px;
+		font-size:16px !important;
+		margin:0;
+	}	
+
 }
+
+/* === Global Styles - Medium Screen === */
 
 @media (min-width: 992px) {
 
@@ -555,10 +369,396 @@ footer .copyright{
 	    padding-bottom: 15px;
 	}
 
+}
+
+
+
+/* === Work Styles === */
+
+/* === Work Styles - X-Small Screen === */
+
+/*Jumbotron*/
+
+.jumbotron.main {
+	background-color: #efc337;
+	padding-bottom: 0;
+}
+
+.jumbotron.main h1 {
+	color: #f4f4f4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.jumbotron.main h2 {
+	color: #313335;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.jumbotron.main p {
+	color: #313335;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+/*Project Cards*/
+
+.work-card {
+	margin-bottom: 30px;
+}
+
+.card {
+	height:320px;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow:0px 3px 7.5px #cacaca;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.card:hover{
+	box-shadow:0px 3px 7.5px #858585;
+}
+
+.card a {
+	width: 100%;
+	height: 320px;
+}
+
+.card img.card-img {
+	display:block;
+	width:100%;
+	height:180px;
+}
+
+.card:hover img.card-img {
+	opacity:.85;
+}
+
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+.card-test {
+	/*width: 360px;*/
+	height: 240px;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow:0px 3px 7.5px #cacaca;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.card-test:hover{
+	box-shadow:0px 3px 7.5px #858585;
+}
+
+.card-test img.card-img.img-test {
+	display:block;
+	width:100%;
+	height:240px;
+	opacity:1;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.card-test:hover img.card-img.img-test {
+	opacity:.2;
+}
+
+
+.card-test a {
+	text-decoration: none;
+}
+
+.card-test a p {
+	visibility:hidden;
+}
+
+.card-test a p.card-title-test {
+	text-align: center;
+	margin-top: -140px;
+	text-decoration: none;
+	color:#707070;
+	font-size:20px;
+}
+
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+/*===========================================================================================================*/
+
+.card .card-content {
+	position:relative;
+	float:left;
+	width: 100%;
+	padding-left:20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.card .card-content h2{
+	margin-top: 0;
+	color:#707070;
+	font-size:24px;
+}
+
+.card .card-content .card-scope{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top:5px;
+	color:#313335;
+	font-size:14px;
+	clear:left;
+}
+
+.card .card-content .card-btn{
+	position: relative;
+	float: left;
+	margin-top:10px;
+	padding:7px 10px;
+	border:1px solid #707070;
+	border-radius: 4px;
+	color:#313335;
+	font-size:14px;
+	clear:left;
+}
+
+.card-btn:hover {
+	border:1px solid #707070;
+}
+
+
+/*CTA*/
+.jumbotron.cta {
+	background-color: #efc337;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.jumbotron.cta p {
+	color: #313335;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
+.btn-primary {
+	color: #efc337;
+	background-color: #313335;
+	border: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	color: #efc337;
+	background-color: #5a5b5d;
+	border: none;
+    outline: none;
+}
+
+.btn-lg {
+	padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+
+
+
+/* === Work Styles - Small Screen === */
+
+@media (min-width: 768px) {
+
+}
+/* === Work Styles - Medium Screen === */
+
+@media (min-width: 992px) {
 	.jumbotron.main{
 		padding-top: 60px;
 		padding-bottom: 20px;
 	}
+}
+
+
+
+/* === Project Styles === */
+
+/* === Project Styles - X-Small Screen === */
+
+/*Project Jumbotron*/
+
+.jumbotron.project{
+	min-height: 200px;
+}
+
+.jumbotron.project.p-1 {
+	background-image: url(../img/project-img-xs.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/*Project Details*/
+
+.project-overview {
+	padding-bottom: 15px;
+}
+
+.project-scope {
+	padding-bottom: 15px;
+}
+
+.project-overview h3 {
+	margin-top: 10px; 
+}
+
+.project-scope h3 {
+	margin-top: 10px; 
+}
+
+.project-scope ul {
+	padding-left: 0;
+}
+
+.project-scope li {
+	list-style: none;
+}
+
+.project-img {
+	width: 100%;
+	height: 200px;
+	background-color: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+.scope-img {
+	height: 200px;
+	margin-top: 20px;	
+}
+
+.project h3 {
+	margin-top: 10px;
+}
+
+
+/* === Project Styles - Small Screen === */
+
+@media (min-width: 768px) {
+
+/*Project Jumbotron*/
+
+	.jumbotron.project{
+		min-height: 320px;
+	}
+
+	.jumbotron.project.p-1 {
+		background-image: url(../img/project-img-sm.png);
+	}
+
+/*Project Overview*/
+
+	.project-scope {
+		border-left: #efc337 5px solid;
+		padding-bottom: 0;
+	}
+
+	.project-img {
+		width: 100%;
+		height: 200px;
+	}
+
+	.scope-img {
+		height: 200px;
+	}
+
+	.project h3 {
+		margin-top: 20px;
+	}
+}
+
+/* === Project Styles - Medium Screen === */
+
+@media (min-width: 992px) {
+
+/*Project Jumbotron*/	
+
+	.jumbotron.project{
+		min-height: 440px;
+	}
+
+	.jumbotron.project.p-1 {
+		background-image: url(../img/project-img-md.png);
+	}
+
+/*Project Details*/
+
+/*	.project-overview {
+		margin-bottom: 10px;
+	}
+
+	.project-scope {
+		margin-bottom: 10px;
+	}*/	
+}
+
+/* === Project Styles - Large Screen === */
+
+@media (min-width: 1200px) {
+
+/*Project Jumbotron*/
+
+	.jumbotron.project{
+		min-height: 560px;
+	}
+
+	.jumbotron.project.p-1 {
+		background-image: url(../img/project-img-lg.png);
+	}
+
+/*Project Details*/
+
+/*	.project-overview {
+		padding-bottom: 5px;
+	}
+
+	.project-scope {
+		padding-bottom: 5px;
+	}*/
 
 }
+
+/* === About Styles === */
+
+/* === About Styles - X-Small Screen === */
+/* === About Styles - Small Screen === */
+/* === About Styles - Medium Screen === */
+/* === About Styles - Large Screen === */
+
+
+
+/* === Contact Styles === */
+
+/* === Contact Styles - X-Small Screen === */
+/* === Contact Styles - Small Screen === */
+/* === Contact Styles - Medium Screen === */
+/* === Contact Styles - Large Screen === */
 
