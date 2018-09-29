@@ -33,9 +33,15 @@ img.logo {
  .navbar-header .title {
     position: absolute;
     top: 15px;
-    left: 90px;
- 	visibility: hidden;
+    left: 65px;
+ 	visibility: visible;
+ 	font-size: 16px;
+	color: #f4f4f4;
+	 	font-family: 'Montserrat', sans-serif;
+	 	font-weight: 700;
+	 	text-transform: uppercase;
  }
+
 
 .navbar-inverse {
 	box-shadow: 0px 0px 10px #313335;
@@ -311,7 +317,7 @@ footer .copyright{
 
 /* === Global Styles - Medium Screen === */
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 
 	.navbar {
 		height: 90px;
@@ -369,7 +375,7 @@ footer .copyright{
 	    padding-bottom: 15px;
 	}
 
-}
+}*/
 
 
 
@@ -381,7 +387,9 @@ footer .copyright{
 
 .jumbotron.main {
 	background-color: #efc337;
-	padding-bottom: 0;
+	padding-bottom: 15px;
+	padding-top: 0px;
+    margin-bottom: 0;
 }
 
 .jumbotron.main h1 {
@@ -396,6 +404,7 @@ footer .copyright{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .jumbotron.main p {
@@ -404,9 +413,14 @@ footer .copyright{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
+.jumbotron.cstudies {
+	background-color: #ffffff;
+	margin-bottom: 0;
+    padding-bottom: 10px;	
+}
 
 /*Project Cards*/
 
@@ -424,6 +438,7 @@ footer .copyright{
 	-ms-transition:all 0.2s ease;
 	-o-transition:all 0.2s ease;
 	transition:all 0.2s ease;
+	background-color: #ffffff;
 }
 
 .card:hover{
@@ -586,13 +601,25 @@ footer .copyright{
 /* === Work Styles - Small Screen === */
 
 @media (min-width: 768px) {
-
+	.jumbotron.main {
+/*		padding-bottom: 15px;
+		padding-top: 0px;*/
+	}
+	.jumbotron.main h1 {
+		font-size: 42px;
+	}
+	.jumbotron.main p {
+		margin-top: 10px;
+	}
+	.jumbotron.cstudies {
+	    padding-bottom: 18px;	
+	}
 }
 /* === Work Styles - Medium Screen === */
 
 @media (min-width: 992px) {
 	.jumbotron.main{
-		padding-top: 60px;
+		padding-top: 10px;
 		padding-bottom: 20px;
 	}
 }
