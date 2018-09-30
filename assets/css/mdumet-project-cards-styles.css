@@ -160,6 +160,42 @@
 }
 
 
+/*==================================================================*/
+/*=====================        FUN STUFF       =====================*/
+/*==================================================================*/
+
+
+.card.PorkyPig img.card-img{
+	background-image: url(../img/projects/porky/porky_thumb.png);
+}
+
+.card.reef img.card-img{
+	background-image: url(../img/projects/reef/reef_thumb.png);
+}
+
+.card.dcfc img.card-img{
+	background-image: url(../img/projects/dcfc/dcfc_thumb.png);
+}
+
+.card.illustration img.card-img{
+	background-image: url(../img/projects/illustration/illustration_thumb.png);
+}
+
+.card.animation img.card-img{
+	background-image: url(../img/projects/animation/animation_thumb.png);
+}
+
+.card.lettering img.card-img{
+	background-image: url(../img/projects/lettering/lettering_thumb.png);
+}
+
+
+
+
+
+
+
+
 
 
 
