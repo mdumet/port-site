@@ -507,17 +507,7 @@ footer .copyright{
 	list-style: none;
 }
 
-.project-img {
-	width: 100%;
-	height: 200px;
-	background-color: #f1f1f1;
-	margin-bottom: 20px;
-}
 
-.scope-img {
-	height: 200px;
-	margin-top: 20px;	
-}
 
 .project h3 {
 	margin-top: 10px;
@@ -534,7 +524,7 @@ footer .copyright{
 		min-height: 240px;
 	}
 
-	.jumbotron.project.arapp {
+	.jumbotron.project.cbapp {
 		background-image: url(../img/case-studies/CB-App/CBApp-sm.jpg);
 	}
 
@@ -543,11 +533,6 @@ footer .copyright{
 	.project-scope {
 		border-left: #efc337 5px solid;
 		padding-bottom: 0;
-	}
-
-	.project-img {
-		width: 100%;
-		height: 240px;
 	}
 
 	.scope-img {
@@ -569,7 +554,7 @@ footer .copyright{
 		min-height: 300px;
 	}
 
-	.jumbotron.project.arapp {
+	.jumbotron.project.cbapp {
 		background-image: url(../img/case-studies/CB-App/CBApp-md.jpg);
 	}
 
@@ -598,7 +583,7 @@ footer .copyright{
 		min-height: 360px;
 	}
 
-	.jumbotron.project.arapp {
+	.jumbotron.project.cbapp {
 		background-image: url(../img/case-studies/CB-App/CBApp-lg.jpg);
 	}
 
