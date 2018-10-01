@@ -429,8 +429,18 @@ footer .copyright{
 
 .visit {
 	width: 100%;
-	color: #313335;
-	background-color: #efc337;
+
+    color: #313335;
+	background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid #313335;
+}
+
+.visit:hover {
+
+    color: #313335;
+    border: 1px solid #313335;
+	background-color: #efc337;	
 }
 
 
