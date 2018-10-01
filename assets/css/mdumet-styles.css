@@ -424,9 +424,14 @@ footer .copyright{
 	padding: 8px 20px;
     font-size: 18px;
     border-radius: 4px;
+
 }
 
-
+.visit {
+	width: 100%;
+	color: #313335;
+	background-color: #efc337;
+}
 
 
 /* === Work Styles - Small Screen === */
@@ -445,6 +450,10 @@ footer .copyright{
 	.jumbotron.cstudies {
 	    padding-bottom: 18px;	
 	}
+
+	.visit {
+		width: 180px;
+	}
 }
 /* === Work Styles - Medium Screen === */
 
@@ -452,6 +461,10 @@ footer .copyright{
 	.jumbotron.main{
 		padding-top: 10px;
 		padding-bottom: 20px;
+	}
+
+	.visit {
+		width: 200px;
 	}
 }
 
@@ -467,18 +480,7 @@ footer .copyright{
 
 /* === Project Styles - X-Small Screen === */
 
-/*Project Jumbotron*/
 
-.jumbotron.project{
-	min-height: 200px;
-}
-
-.jumbotron.project.arapp {
-	background-image: url(../img/case-studies/CB-App/CBApp-xs.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
 
 
 /*Project Details*/
@@ -507,6 +509,9 @@ footer .copyright{
 	list-style: none;
 }
 
+h1 span.small {
+
+}
 
 
 .project h3 {
@@ -518,15 +523,6 @@ footer .copyright{
 
 @media (min-width: 768px) {
 
-/*Project Jumbotron*/
-
-	.jumbotron.project{
-		min-height: 240px;
-	}
-
-	.jumbotron.project.cbapp {
-		background-image: url(../img/case-studies/CB-App/CBApp-sm.jpg);
-	}
 
 /*Project Overview*/
 

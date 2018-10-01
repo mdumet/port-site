@@ -24,6 +24,20 @@
 /*==================================================================================================================*/
 /*==================================================================================================================*/
 
+
+/*Project Jumbotron*/
+
+.jumbotron.project{
+	min-height: 200px;
+}
+
+.jumbotron.project {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
 img {
 	border: none;
 }
@@ -46,26 +60,83 @@ img {
 }
 
 
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+
+
 
 /*==================================================================*/
 /*=====================      CASE STUDIES      =====================*/
 /*==================================================================*/
 
+/* CB-APP */
 
 .CB-App{
 	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
 }
 
+
+.jumbotron.project.cbapp {
+	background-image: url(../img/case-studies/CB-App/CBApp-XS.jpg);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+/* CB-HOMEPAGE */
+
 .CB-Homepage{
 	background-image: url(../img/case-studies/cb-home/cbhome_thumb.png);
 }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+/* OG */
 
 .OG{
 	background-image: url(../img/case-studies/OG-TeamMoms/og_thumb.png);
 }
 
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+/* UA */
+
 .UA{
 	background-image: url(../img/case-studies/ua/ua_thumb.png);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
 }
 
 
@@ -75,26 +146,121 @@ img {
 /*==================================================================*/
 
 
+/* CB-ADDRESUME*/
+
 .CB-AddResume{
 	background-image: url(../img/projects/cb-resume/cbresume_thumb.png);
 }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+
+/* NFHS*/
 
 .NFHS{
 	background-image: url(../img/projects/nfhs/nfhs_thumb.png);
 }
 
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+
+/* AJA */
+
 .aja{
 	background-image: url(../img/projects/aja/aja_thumb.png);
 }
+
+.jumbotron.project.aja {
+	background-image: url(../img/projects/aja/aja-banner.jpg);
+}
+
+.aja-1{
+	background-image: url(../img/projects/aja/aja_thumb.png);
+}
+
+.aja-2{
+	background-image: url(../img/projects/aja/aja-2.png);
+}
+
+.aja-responsive{
+	background-image: url(../img/projects/aja/aja-responsive.png);
+}
+
+@media (min-width: 768px) {
+
+	.jumbotron.project.aja {
+		height: 260px;
+	}
+	.aja-1{
+		height: 300px;
+	}
+	.aja-2{
+		height: 420px;
+	}
+	.aja-responsive{
+		height: 420px;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.jumbotron.project.aja {
+		height: 300px;
+	}
+	.aja-1{
+		height: 340px;
+	}
+	.aja-2{
+		height: 340px;
+	}
+	.aja-responsive{
+		height: 640px;
+	}
+}
+
+
+/* ENCORE */
 
 .encore{
 	background-image: url(../img/projects/encore/encore_thumb.png);
 }
 
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+/* BRACES BRACES */
+
 .braces{
 	background-image: url(../img/projects/braces/braces_thumb.jpg);
 }
 
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
 
 /* ALFRED ANGELO*/
 
