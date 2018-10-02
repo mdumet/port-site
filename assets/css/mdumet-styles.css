@@ -564,9 +564,6 @@ h1 span.small {
 		min-height: 300px;
 	}
 
-	.jumbotron.project.cbapp {
-		background-image: url(../img/case-studies/CB-App/CBApp-md.jpg);
-	}
 
 /*Project Details*/
 
@@ -583,31 +580,7 @@ h1 span.small {
 	}
 }
 
-/* === Project Styles - Large Screen === */
 
-@media (min-width: 1200px) {
-
-/*Project Jumbotron*/
-
-	.jumbotron.project{
-		min-height: 360px;
-	}
-
-	.jumbotron.project.cbapp {
-		background-image: url(../img/case-studies/CB-App/CBApp-lg.jpg);
-	}
-
-/*Project Details*/
-
-/*	.project-overview {
-		padding-bottom: 5px;
-	}
-
-	.project-scope {
-		padding-bottom: 5px;
-	}*/
-
-}
 
 
 

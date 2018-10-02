@@ -82,30 +82,48 @@ img {
 	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
 }
 
-
 .jumbotron.project.cbapp {
-	background-image: url(../img/case-studies/CB-App/CBApp-XS.jpg);
+	background-image: url(../img/case-studies/CB-App/CBApp-banner-xs.png);
+}
+
+.cbapp-reviews {
+	background-image: url(../img/case-studies/CB-App/CBApp-reviews.png);
 }
 
 .cbapp-comp {
-	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
+	background-image: url(../img/case-studies/CB-App/CBApp-comp.png);
 }
 
-.cbapp-comp {
-	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
+.cbapp-audit {
+	background-image: url(../img/case-studies/CB-App/CBApp-audit.png);
 }
 
-.cbapp-comp {
-	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
+.cbapp-personas {
+	background-image: url(../img/case-studies/CB-App/CBApp-personas.png);
 }
+
+
 
 
 @media (min-width: 768px) {
+	.jumbotron.project.cbapp {
+		height: 200px;
+		background-image: url(../img/case-studies/CB-App/CBApp-banner-sm.png);
+	}
 
+	.cbapp-personas {
+		height: 200px;
+	}
 }
 
 @media (min-width: 992px) {
+	.jumbotron.project.cbapp {
+		height: 360px;
+	}
 
+	.cbapp-personas {
+		height: 240px;
+	}
 }
 
 /* CB-HOMEPAGE */
