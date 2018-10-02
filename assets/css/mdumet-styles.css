@@ -469,8 +469,12 @@ footer .copyright{
 
 @media (min-width: 992px) {
 	.jumbotron.main{
-		padding-top: 10px;
-		padding-bottom: 20px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.jumbotron.main h1 {
+		font-size: 48px;
 	}
 
 	.visit {
