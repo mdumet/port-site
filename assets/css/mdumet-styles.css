@@ -28,6 +28,10 @@
 
 /* === Global Styles - X-Small Screen === */
 
+body {
+	font-size: 16px;
+}
+
 /* =================================         Navbar        ========================================== */
 .navbar {
 	height: 50px;
@@ -499,6 +503,16 @@ footer .copyright{
 
 /*Project Details*/
 
+.jumbotron.project-container {
+		margin-top:0;
+}
+
+.jumbotron.project-container p{
+		font-size: 16px;
+		font-weight: 400;
+}
+
+
 .project-overview {
 	padding-bottom: 15px;
 }
@@ -552,6 +566,10 @@ h1 span.small {
 	.project h3 {
 		margin-top: 20px;
 	}
+
+	.jumbotron.project-container {
+			padding-top: 20px;
+	}
 }
 
 /* === Project Styles - Medium Screen === */
@@ -564,6 +582,9 @@ h1 span.small {
 		min-height: 300px;
 	}
 
+.jumbotron.project-container {
+		padding-top: 20px;
+}
 
 /*Project Details*/
 
