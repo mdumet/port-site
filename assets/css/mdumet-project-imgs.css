@@ -111,6 +111,11 @@ img {
 	height: 220px;
 }
 
+.cbapp-wires {
+	background-image: url(../img/case-studies/CB-App/CBApp-wires.png);
+	height: 300px;
+}
+
 
 @media (min-width: 768px) {
 	.jumbotron.project.cbapp {
@@ -129,6 +134,10 @@ img {
 	.cbapp-stickies {
 		height: 350px;
 	}
+
+	.cbapp-wires {
+		min-height: 500px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -146,6 +155,10 @@ img {
 
 	.cbapp-stickies {
 		min-height: 560px;
+	}
+
+	.cbapp-wires {
+		min-height: 400px;
 	}
 
 }
