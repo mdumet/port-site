@@ -128,7 +128,10 @@ img {
     padding: 20px 0 30px;
 }
 
-
+.cbapp-final {
+	background-image: url(../img/case-studies/CB-App/CBApp-final.png);
+	height: 280px;	
+}
 
 
 
@@ -161,6 +164,10 @@ img {
 	.cbapp-prototype {
 		min-height: 500px;		
 	}
+
+	.cbapp-final {
+		min-height: 450px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -190,6 +197,10 @@ img {
 
 	.cbapp-prototype {
 		height:630px;
+	}
+
+	.cbapp-final {
+		min-height: 800px;
 	}
 
 }
