@@ -79,7 +79,7 @@ img {
 /* CB-APP */
 
 .CB-App{
-	background-image: url(../img/case-studies/CB-App/CBApp-thumb.jpg);
+	background-image: url(../img/case-studies/CB-App/CBApp-thumb.png);
 }
 
 .jumbotron.project.cbapp {
@@ -116,6 +116,21 @@ img {
 	height: 300px;
 }
 
+.cbapp-visuals {
+	background-image: url(../img/case-studies/CB-App/CBApp-visuals.png);
+	height: 300px;
+}
+
+.cbapp-prototype {
+	position: relative;
+    width: 100%;
+    min-height: 280px;
+    padding: 20px 0 30px;
+}
+
+
+
+
 
 @media (min-width: 768px) {
 	.jumbotron.project.cbapp {
@@ -138,6 +153,14 @@ img {
 	.cbapp-wires {
 		min-height: 500px;
 	}
+
+	.cbapp-visuals {
+		min-height: 500px;
+	}
+
+	.cbapp-prototype {
+		min-height: 500px;		
+	}
 }
 
 @media (min-width: 992px) {
@@ -159,6 +182,14 @@ img {
 
 	.cbapp-wires {
 		min-height: 400px;
+	}
+
+	.cbapp-visuals {
+		min-height: 400px;
+	}
+
+	.cbapp-prototype {
+		height:630px;
 	}
 
 }
