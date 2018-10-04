@@ -322,15 +322,78 @@ img {
 /* OG */
 
 .OG{
-	background-image: url(../img/case-studies/OG-TeamMoms/og_thumb.png);
+	background-image: url(../img/case-studies/OG/og_thumb.png);
+}
+
+.jumbotron.project.og {
+	background-image: url(../img/case-studies/OG/og-banner-xs.png);
+}
+
+.og-moms {
+	background-image: url(../img/case-studies/OG/og-moms.png);
+		height: 160px;
+    	background-position-y: -10px;
+}
+
+.og-social {
+	background-image: url(../img/case-studies/OG/og-social.png);	
+}
+
+.og-wires {
+	background-image: url(../img/case-studies/OG/og-wires.png);
+	height: 360px;	
+}
+
+.og-final {
+	background-image: url(../img/case-studies/OG/og-final.png);
+	height: 260px;	
 }
 
 @media (min-width: 768px) {
+	.jumbotron.project.og {
+		background-image: url(../img/case-studies/OG/og-banner-sm.png);
+		height: 200px;
+	}
 
+	.og-moms {
+		height: 180px;
+    	background-position-y: -40px;
+	}
+
+	.og-social {
+		height: 320px;
+	}
+
+	.og-wires {
+		height: 590px;
+	}
+
+	.og-final {
+		height: 420px;
+	}
 }
 
 @media (min-width: 992px) {
+	.jumbotron.project.og {
+		height: 360px;
+	}
 
+	.og-moms {
+		height: 300px;
+    	background-position-y: -50px;
+	}
+
+	.og-social {
+		height: 500px;
+	}
+
+	.og-wires {
+		height: 930px;
+	}
+
+	.og-final {
+		height: 620px;
+	}
 }
 
 
