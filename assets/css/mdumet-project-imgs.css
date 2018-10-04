@@ -399,15 +399,41 @@ img {
 
 /* UA */
 
-.UA{
+.ua{
 	background-image: url(../img/case-studies/ua/ua_thumb.png);
+}
+
+.jumbotron.project.ua {
+	background-image: url(../img/case-studies/ua/ua-banner-xs.png);
+}
+
+.ua-deion {
+	background-image: url(../img/case-studies/ua/ua-deion.png);
+	height: 240px;
 }
 
 @media (min-width: 768px) {
 
+	.jumbotron.project.ua {
+		background-image: url(../img/case-studies/ua/ua-banner-sm.png);
+		height: 200px;
+	}
+
+	.ua-deion {
+		height: 340px;
+     	background-position-y: -60px;
+	}
 }
 
 @media (min-width: 992px) {
+	.jumbotron.project.ua {
+		height: 360px;
+	}
+
+	.ua-deion {
+		height: 500px;
+     	background-position-y: -100px;
+	}
 
 }
 
