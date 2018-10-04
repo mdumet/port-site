@@ -507,6 +507,10 @@ footer .copyright{
 		margin-top:0;
 }
 
+.jumbotron.project-container.last{
+		margin-bottom:0;
+}
+
 .jumbotron.project-container p{
 		font-size: 16px;
 		font-weight: 400;

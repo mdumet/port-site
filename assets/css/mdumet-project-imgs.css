@@ -211,11 +211,110 @@ img {
 	background-image: url(../img/case-studies/cb-home/cbhome_thumb.png);
 }
 
-@media (min-width: 768px) {
+.jumbotron.project.cbhome {
+	background-image: url(../img/case-studies/cb-home/cbhome-banner-xs.png);
+}
 
+.cbhome-audit {
+	background-image: url(../img/case-studies/cb-home/cbhome-audit.png);
+	height: 160px;
+}
+
+.cbhome-analytics {
+	background-image: url(../img/case-studies/cb-home/cbhome-analytics.png);
+}
+
+.cbhome-comp {
+	background-image: url(../img/case-studies/cb-home/cbhome-comp.png);
+}
+
+.cbhome-comp1 {
+	background-image: url(../img/case-studies/cb-home/cbhome-monster.png);
+}
+
+.cbhome-comp2 {
+	background-image: url(../img/case-studies/cb-home/cbhome-ziprecruiter.png);
+}
+
+.cbhome-wires {
+	background-image: url(../img/case-studies/cb-home/cbhome-wires.png);
+	height: 300px;
+}
+
+.cbhome-final {
+	background-image: url(../img/case-studies/cb-home/cbhome-final.png);
+	height: 900px;	
+}
+
+
+
+@media (min-width: 768px) {
+	.jumbotron.project.cbhome {
+		height: 200px;
+		background-image: url(../img/case-studies/cb-home/cbhome-banner-sm.png);
+	}
+
+	.cbhome-audit {
+		height: 260px;
+	}
+
+	.cbhome-analytics {
+		height: 260px;
+	}
+
+	.cbhome-comp {
+		height: 420px;
+	}
+
+	.cbhome-comp1 {
+		height: 400px;
+	}
+
+	.cbhome-comp2 {
+		height: 400px;
+	}
+
+	.cbhome-wires {
+		height: 460px;
+	}
+
+	.cbhome-final {
+		height: 1450px;
+	}
 }
 
 @media (min-width: 992px) {
+	.jumbotron.project.cbhome {
+		min-height: 360px;
+	}
+
+	.cbhome-audit {
+		height: 400px;
+	}
+
+	.cbhome-analytics {
+		height: 400px;
+	}
+
+	.cbhome-comp {
+		height: 670px;
+	}
+
+	.cbhome-comp1 {
+		height: 320px;
+	}
+
+	.cbhome-comp2 {
+		height: 320px;
+	}
+
+	.cbhome-wires {
+		height: 680px;
+	}
+
+	.cbhome-final {
+		height: 2310px;
+	}
 
 }
 
