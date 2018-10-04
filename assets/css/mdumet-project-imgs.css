@@ -412,6 +412,32 @@ img {
 	height: 240px;
 }
 
+.ua-social {
+	background-image: url(../img/case-studies/ua/ua-social.png);
+	height: 200px;
+}
+
+.ua-final-home {
+	background-image: url(../img/case-studies/ua/ua-home.png);
+	height: 200px;
+}
+
+.ua-final-instructions {
+	background-image: url(../img/case-studies/ua/ua-instructions.png);
+	height: 200px;
+}
+
+.ua-final-drills {
+	background-image: url(../img/case-studies/ua/ua-drills.png);
+	height: 230px;
+}
+
+
+.ua-final-registration {
+	background-image: url(../img/case-studies/ua/ua-registration.png);
+	height: 580px;
+}
+
 @media (min-width: 768px) {
 
 	.jumbotron.project.ua {
@@ -423,6 +449,27 @@ img {
 		height: 340px;
      	background-position-y: -60px;
 	}
+
+	.ua-social {
+		height: 320px;
+	}
+
+	.ua-final-home {
+		height: 320px;
+	}
+
+	.ua-final-instructions {
+		height: 320px;
+	}
+
+	.ua-final-drills {
+		height: 360px;
+	}
+
+
+	.ua-final-registration {
+		height: 940px;
+	}
 }
 
 @media (min-width: 992px) {
@@ -433,6 +480,27 @@ img {
 	.ua-deion {
 		height: 500px;
      	background-position-y: -100px;
+	}
+
+	.ua-social {
+		height: 400px;
+	}
+
+	.ua-final-home {
+		height: 510px;
+	}
+
+	.ua-final-instructions {
+		height: 510px;
+	}
+
+	.ua-final-drills {
+		height: 580px;
+	}
+
+
+	.ua-final-registration {
+		height: 1490px;
 	}
 
 }
