@@ -100,11 +100,11 @@
 
 
 .card.cstudies {
-	height: 300px;
+	height: 240px;
 }
 
 .card.cstudies img.card-img{
-	height:300px;
+	height:240px;
 }
 
 .card.cstudies a p.card-title {
@@ -128,7 +128,25 @@
 	background-image: url(../img/case-studies/ua/ua_thumb.png);
 }
 
+@media (min-width: 768px) {
+	.card.cstudies {
+		height: 240px;
+	}
 
+	.card.cstudies img.card-img{
+		height:240px;
+	}
+}
+
+@media (min-width: 922px) {
+	.card.cstudies {
+		height: 300px;
+	}
+
+	.card.cstudies img.card-img{
+		height:300px;
+	}
+}
 
 /*==================================================================*/
 /*=====================        PROJECTS        =====================*/
