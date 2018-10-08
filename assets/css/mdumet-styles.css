@@ -620,6 +620,102 @@ h1 span.small {
 
 
 /* === About Styles - X-Small Screen === */
+
+.jumbotron.main.about {
+		padding-bottom: 30px;
+}
+
+
+.about-img {
+	width: 345px;
+    height: 345px;
+    margin-top: 20px;
+	background-image: url(../img/about-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	border-radius: 50%;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-ms-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.about-img:hover {	
+	opacity:.15;
+}
+
+
+.jumbotron.main .about-text h1 {
+	text-align: left;
+}
+
+.jumbotron.main .about-text h2 {
+	text-align: left;
+}
+
+.jumbotron.main .about-text p {
+	text-align: left;
+}
+
+
 /* === About Styles - Small Screen === */
+
+@media (min-width: 768px) {
+
+	.jumbotron.main.about {
+			padding-bottom: 0;
+	}
+
+	.about-img {
+		width: 220px;
+	    height: 220px;
+	}
+
+	.jumbotron.main .about-text h1 {
+		text-align: left;
+	}
+
+	.jumbotron.main .about-text h2 {
+		text-align: left;
+	}
+
+	.jumbotron.main .about-text p {
+		text-align: left;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.about-img {
+		width: 280px;
+	    height: 280px;
+	}
+
+	.jumbotron.main .about-text h1 {
+		text-align: left;
+	}
+
+	.jumbotron.main .about-text h2 {
+		text-align: left;
+	}
+
+	.jumbotron.main .about-text p {
+		text-align: left;
+	}
+}
+
 /* === About Styles - Medium Screen === */
 
+
+
+@media (min-width: 1200px) {
+
+	.about-img {
+		width: 360px;
+	    height: 360px;
+	}
+
+}
