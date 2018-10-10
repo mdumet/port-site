@@ -659,6 +659,11 @@ h1 span.small {
 	text-align: left;
 }
 
+.jumbotron.main .about-text.facts p span {
+	margin-left: 0;
+	font-size: 18px;
+}
+
 
 /* === About Styles - Small Screen === */
 
