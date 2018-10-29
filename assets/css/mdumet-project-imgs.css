@@ -518,12 +518,42 @@ img {
 	background-image: url(../img/projects/cb-resume/cbresume_thumb.png);
 }
 
-@media (min-width: 768px) {
+.unauth-flow-old {
+	background-image: url(../img/projects/cb-resume/unauth-flow-old.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
 
+.unauth-flow-new {
+	background-image: url(../img/projects/cb-resume/unauth-flow-new.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.unauth-flow-old{
+		height: 200px;
+	}
+
+	.unauth-flow-new{
+		height: 200px;
+	}	
 }
 
 @media (min-width: 992px) {
-
+	.unauth-flow-old{
+		height: 240px;
+	}
+	
+	.unauth-flow-new{
+		height: 240px;
+	}
 }
 
 
