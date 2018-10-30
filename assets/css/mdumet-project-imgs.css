@@ -527,6 +527,15 @@ img {
 	width: 100%;
 }
 
+.current-screens {
+	background-image: url(../img/projects/cb-resume/current-screens.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
 .unauth-flow-new {
 	background-image: url(../img/projects/cb-resume/unauth-flow-new.png);
 	background-repeat: no-repeat;
@@ -536,13 +545,72 @@ img {
 	width: 100%;
 }
 
+.resume-wire1 {
+	background-image: url(../img/projects/cb-resume/resume-wire1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+	width: 100%;
+	border: 1px solid;
+}
+
+.resume-wire2 {
+	background-image: url(../img/projects/cb-resume/resume-wire2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+	width: 100%;
+	border: 1px solid;
+}
+
+.resume-wire3 {
+	background-image: url(../img/projects/cb-resume/resume-wire3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+	width: 100%;
+	border: 1px solid;
+}
+
+.resume-ui{
+	background-image: url(../img/projects/cb-resume/resume-ui.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 280px;
+	width: 100%;
+}
+
 @media (min-width: 768px) {
 	.unauth-flow-old{
 		height: 200px;
 	}
 
+	.current-screens{
+		height: 200px;
+	}
+
+	.resume-wire1{
+		height: 510px;
+	}
+
+	.resume-wire2{
+		height: 510px;
+	}
+
+	.resume-wire3{
+		height: 510px;
+	}
+
 	.unauth-flow-new{
 		height: 200px;
+	}
+
+	.resume-ui{
+		height: 360px;
 	}	
 }
 
@@ -550,12 +618,50 @@ img {
 	.unauth-flow-old{
 		height: 240px;
 	}
-	
+
+	.current-screens{
+		height: 240px;
+	}
+
+	.resume-wire1{
+		height: 670px;
+	}
+
+	.resume-wire2{
+		height: 670px;
+	}
+
+	.resume-wire3{
+		height: 670px;
+	}
+
 	.unauth-flow-new{
 		height: 240px;
 	}
+
+	.resume-ui{
+		height: 500px;
+	}
 }
 
+@media (min-width: 1400px) {
+
+	.resume-wire1{
+		height: 820px;
+	}
+
+	.resume-wire2{
+		height: 820px;
+	}
+
+	.resume-wire3{
+		height: 820px;
+	}
+
+	.resume-ui{
+		height: 600px;
+	}
+}
 
 
 /* NFHS*/
