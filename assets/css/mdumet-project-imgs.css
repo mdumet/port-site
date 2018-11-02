@@ -580,7 +580,7 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 280px;
+	height: 240px;
 	width: 100%;
 }
 
@@ -610,7 +610,7 @@ img {
 	}
 
 	.resume-ui{
-		height: 360px;
+		height: 300px;
 	}	
 }
 
@@ -640,7 +640,7 @@ img {
 	}
 
 	.resume-ui{
-		height: 500px;
+		height: 400px;
 	}
 }
 
@@ -659,7 +659,7 @@ img {
 	}
 
 	.resume-ui{
-		height: 600px;
+		height: 500px;
 	}
 }
 
